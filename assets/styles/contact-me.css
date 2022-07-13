@@ -1,0 +1,102 @@
+/* Nav bar */
+body{
+  margin: 0;
+}
+.navbar{
+  background-color: rgb(223, 223, 223) !important;
+}
+.navbar-brand{
+  padding-left: 30px;
+}
+.nav-item{
+  padding-left: 15px;
+  padding-right: 20px;
+}
+.nav-item:hover{
+  border-radius: 10px;
+  background-color: rgb(240, 240, 240);
+}
+
+.nav-link{
+  font-weight: 700;
+}
+
+/* nav bar right */
+.navRightList{
+  border: 2px solid grey;
+  display: flex;
+  margin: auto;
+  margin-right: 40px;
+  align-items: center;
+  list-style: none !important;
+  border-radius: 10px;
+  background-color: navy;
+  cursor: pointer;
+  }
+
+.contactMe{
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 30px 30px 30px 0px;
+  color: white;
+}
+
+.navRightList:hover{
+  color: white;
+  background-color: rgb(212, 212, 212);
+}
+
+.headContent{
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.form{
+  width: 400px;
+}
+
+.title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.form_element label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 2px;
+  padding-bottom: 5px;
+  display: block;
+  margin-top: 7px;
+
+}
+
+.form_element input, textarea, select{
+  border: 2px solid rgb(199, 199, 199);
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px 0 15px 0;
+}
+
+.button{
+  display: flex;
+  justify-content: right;
+}
+
+.button-submit{
+  display: flex;
+  border-color: navy;
+  justify-content: center;
+  background-color: navy; 
+  color: white;
+  font-size: 15px;
+  border-radius: 15px;
+  width: 100px;
+  margin-top: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.button-submit:hover{
+  border-color: rgb(138, 138, 138);
+  background-color: rgb(138, 138, 138);
+}
